@@ -1,8 +1,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := chagalllte
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/fox/config/dirac.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := chagalllte
