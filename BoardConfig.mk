@@ -1,4 +1,5 @@
 DEVICE_TREE := device/samsung/chagalllte
+TARGET_DEVICE := chagalllte
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
